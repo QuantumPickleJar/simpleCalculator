@@ -28,6 +28,15 @@ namespace simpleCalculator
             DateTime birthDate = new DateTime(iYear, iMonth, iDay);
             //System.DateTime birthDate = new System.DateTime(iYear, iMonth, iYear);
             //what we would use if we didn't have "using System;"
+
+
+            var age = DateTime.Now - birthDate; //in this instance, 'age' will turn into variable type TimeSpan 
+                                                //var determines what datatype is most appropariate
+                                                //DateTime.Today;
+
+            int numDays = age.Days;
+            int totYears = numDays / 365;
+
         }
     }
 }
