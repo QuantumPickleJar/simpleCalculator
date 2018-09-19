@@ -25,7 +25,9 @@ namespace simpleCalculator
             iDay = int.Parse(strDay);
             iYear = int.Parse(strYear);
 
-
+            DateTime birthDate = new DateTime(iYear, iMonth, iDay);
+            //System.DateTime birthDate = new System.DateTime(iYear, iMonth, iYear);
+            //what we would use if we didn't have "using System;"
         }
     }
 }
