@@ -12,12 +12,12 @@
             </Label.Margin>
         </Label>
 
-        <Entry Keyboard="Numeric"/>
+        <Entry Keyboard="Numeric" x:Name="mthEntry"/>
         <Label Text="Month" />
-        <Entry Keyboard="Numeric"/>
+        <Entry Keyboard="Numeric" x:Name="dayEntry"/>
         <Label Text="Day"/>
-        <Entry Keyboard="Numeric"/>
-        <Button Text="Calculate"/>
+        <Entry Keyboard="Numeric" x:Name="yrEntry"/>
+        <Button Text="Calculate" Clicked="Button_Clicked"/>
         <Label Text="??" HorizontalTextAlignment="Center" FontSize="24"/>
     </StackLayout>
 
