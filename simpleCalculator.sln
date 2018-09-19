@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpleCalculator.iOS", "sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpleCalculator.UWP", "simpleCalculator\simpleCalculator.UWP\simpleCalculator.UWP.csproj", "{340197E1-F199-471C-A246-5572BC9C2833}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpleCalculator", "simpleCalculator\simpleCalculator\simpleCalculator.csproj", "{2480146D-1A72-4A3A-9F12-F4FA2527C62D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simpleCalculator", "simpleCalculator\simpleCalculator\simpleCalculator.csproj", "{2480146D-1A72-4A3A-9F12-F4FA2527C62D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
