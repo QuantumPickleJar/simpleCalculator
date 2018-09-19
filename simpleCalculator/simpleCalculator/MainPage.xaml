@@ -18,7 +18,7 @@
         <Label Text="Day"/>
         <Entry Keyboard="Numeric" x:Name="yrEntry"/>
         <Button Text="Calculate" Clicked="Button_Clicked"/>
-        <Label Text="??" HorizontalTextAlignment="Center" FontSize="24"/>
+        <Label Text="??" HorizontalTextAlignment="Center" FontSize="24" x:Name="ageLabel"/>
     </StackLayout>
 
 </ContentPage>
