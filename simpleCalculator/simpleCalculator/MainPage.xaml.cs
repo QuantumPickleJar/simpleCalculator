@@ -42,10 +42,16 @@ namespace simpleCalculator
                 }
                 else
                 {
-                    ageLabel.Text = "Please enter valid year"
+                    ageLabel.Text = "Please enter valid year";
                     //let user know 
                 }
+
             }
+            else
+            {
+                ageLabel.Text = "Please enter a valid month";
+            }
+
 
             //iMonth = int.Parse(strMonth);
             //iDay = int.Parse(strDay);
@@ -57,10 +63,10 @@ namespace simpleCalculator
 
 
             //var age = DateTime.Now - birthDate; //in this instance, 'age' will turn into variable type TimeSpan 
-                                                //var determines what datatype is most appropariate
-                                                //DateTime.Today;
+            //var determines what datatype is most appropariate
+            //DateTime.Today;
 
-            
+
         }
     }
 }
