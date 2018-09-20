@@ -33,7 +33,7 @@ namespace simpleCalculator
                         int numDays = age.Days;
                         int totYears = numDays / 365;
 
-                        ageLabel.Text = numDays.ToString();
+                        ageLabel.Text = totYears.ToString();
                     }
                     else
                     {
